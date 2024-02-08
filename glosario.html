@@ -11,25 +11,35 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html"><h1 id="titulo">The Harrison Speakeasy</h1></a> 
-            <hr>
-            <a href="historia.html">Historia</a>
-            <a href="clasicos.html">Clásicos</a>
-            <a href="historicosDeHarrison.html">Históricos de Harrison</a>
-            <a href="glosario.html">Glosario</a>
-            <hr>
+        <img src="img/icons/bars-solid.svg" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <div class="titulo">
+                <a href="index.html"><h1 id="titulo">The Harrison Speakeasy</h1></a> 
+            </div>
+            <hr color="white" width="100%">
+            <div class="links-nav">
+                <a href="historia.html">Historia</a>
+                <a href="clasicos.html">Clásicos</a>
+                <a href="historicosDeHarrison.html">Históricos de Harrison</a>
+                <a href="glosario.html">Glosario</a>
+            </div>
+            <hr color="white" width="100%">
         </nav>
     </header>
     <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit recusandae quisquam,
-         atque possimus eligendi dolorum alias perspiciatis. Voluptate quisquam, repudiandae 
-         optio nostrum non culpa nobis earum atque asperiores modi officia.
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit recusandae quisquam,
+            atque possimus eligendi dolorum alias perspiciatis. Voluptate quisquam, repudiandae 
+            optio nostrum non culpa nobis earum atque asperiores modi officia.
+        </p>
     </div>
     <footer>
-        <button>
-            <a href="#titulo">Volver arriba</a>
-        </button>
+        <div class="btn-footer">
+            <button><a target="_blank" href="https://www.instagram.com/harrison.bsas/"><img src="img/icons/instagram.svg"></a></button>
+            <button><a target="_blank" href="https://maps.app.goo.gl/uZ3gcZmiK1NnDHVL9"><img src="img/icons/location-dot-solid.svg"></a></button>
+            <p>Tel: 011 4831-0519</p>
+        </div>
+        <button id="btn-volver-arriba"><a href="#titulo">Volver arriba</a></button>
     </footer>
     <script src="js/scrip.js"></script>
 </body>
