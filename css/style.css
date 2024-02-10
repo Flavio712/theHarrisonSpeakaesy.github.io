@@ -30,6 +30,19 @@ p {
     color: white;
 }
 
+.textoGlosario {
+    display: flex;
+    text-align: start;
+    color: white;
+}
+
+.textoHistoria {
+    display: flex;
+    text-align: start;
+    color: white;
+    text-indent: 3em;
+} 
+
 hr {
     margin: 10px;
 }
