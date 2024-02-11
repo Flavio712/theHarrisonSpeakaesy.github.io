@@ -26,14 +26,15 @@ a:hover {
     color: grey;
 }
 
-p {
+p, h2 {
     color: white;
 }
 
-.textoGlosario {
+.textoGlosario, .parrafo-descripcion {
     display: flex;
     text-align: start;
     color: white;
+    margin: .5rem;
 }
 
 .textoHistoria {
@@ -102,4 +103,23 @@ footer {
 
 #btn-volver-arriba:hover {
     color: white;
+}
+
+.imagenes {
+    width: 900px;
+    height: 600px;
+    padding: .5rem;
+}
+
+.contenedor-img-descripcion {
+    display: flex;
+    height: 600px;
+}
+
+.descripcion-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:1px solid white;
+    margin: .5rem;
 }
