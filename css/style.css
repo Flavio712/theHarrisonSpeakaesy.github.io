@@ -106,13 +106,14 @@ footer {
 }
 
 .imagenes {
-    width: 900px;
+    width: 660px;
     height: 600px;
     padding: .5rem;
 }
 
 .contenedor-img-descripcion {
-    display: flex;
+    display: grid;
+    grid-template-columns: 670px 600px;
     height: 600px;
 }
 
